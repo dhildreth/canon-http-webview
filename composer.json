@@ -1,0 +1,35 @@
+{
+    "name": "dhildreth/canon-http-webview",
+    "description": "PHP Canon HTTP Webview API client",
+    "keywords": [
+        "vb-c60",
+	"canon webview",
+	"http webview",
+	"network camera",
+        "canon",
+        "vb-c500d/vd",
+	"vb-c300",
+	"vb-c50i/r",
+	"vb-c50fi/fsi"
+    ],
+    "authors": [
+        {
+            "name": "Derek Hildreth",
+            "email": "sendderek@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+	    "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "WVHttp\\": "src/"
+        },
+        "files": [
+	    "src/functions_include.php"
+	]
+    }
+}
